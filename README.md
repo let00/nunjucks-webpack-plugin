@@ -78,6 +78,9 @@ export default {
   * `writeToFileEmit` - (optional, default: false) - If set to `true` will emit
     to build folder and memory in combination with `webpack-dev-server`
 
+  * `minify` - (optional) `object` minification using `html-minifer`, see
+    [options](https://github.com/kangax/html-minifier#options-quick-reference)
+
 * `configure` - (optional) `object` or `nunjucks.Environment` see
   [configure](https://mozilla.github.io/nunjucks/api.html#configure) options.
 
